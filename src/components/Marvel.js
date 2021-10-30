@@ -2,8 +2,8 @@ import React, {useState, useEffect} from "react";
 import md5 from 'md5'
 import {Tarjeta} from './Tarjeta';
 
-let apiKey = '0a0c2c0e6a7cffc33501456623f6d1d6' //llave publica
-let KeyPrivate = '04e15c915acc12bcfbcd316418093ac0105b0a23'
+let apiKey = 'Aqui la llave publica' //llave publica
+let KeyPrivate = 'Aqui la llave privada' //llave privada
 
 let ts= new Date().getTime()
 let hash = md5( ts + KeyPrivate + apiKey )
